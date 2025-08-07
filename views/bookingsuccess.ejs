@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking seccess</title>
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <%- include("_header.ejs") %>
+    <section class="booking-success">
+      <h1><% locals.message %></h1>
+      <p>Your booking has been recieved. Thank you for choosing us!</p>
+      <p>We will send you a confirmation email shortly</p>
+      <p>
+        If you have any question, feel free to <a href="/contact">Contact Us</a>
+      </p>
+      <br />
+      <p><a href="/">Return to Home</a></p>
+    </section>
+  </body>
+</html>
